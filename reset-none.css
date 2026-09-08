@@ -1,7 +1,13 @@
 /* Intentionally empty: observe browser defaults. */
 /* 
+Useful
 1. margin for header
-2. list style
-3. font size
-4. alignment
-5. text decoration
+2. font size
+3. alignment
+4. responsive queries
+5. text shadows (none) 
+
+Conflicting
+1. list style
+2. link: text-decoration
+*/

@@ -1,2 +1,6 @@
 /* Intentionally blunt. Identify what this removes and why that matters. */
 * { margin: 0; padding: 0; border: 0; font: inherit; }
+
+/*
+Removes default margins, paddings, and borders - now require rebuilding. 
+*/
