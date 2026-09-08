@@ -8,6 +8,12 @@ li {
 }
 /* align list items with a greater margin to improve readability and separation between content. makes it visually different than other text*/
 
+figcaption {
+    font-style: italic;
+    font-size: 0.75rem;
+}
+/* makes the caption less prominent than the other text */
+
 .card {
     line-height: 1.5rem;
 }

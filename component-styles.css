@@ -6,15 +6,25 @@
   --color-text: #404040;
   --space-card: 1rem;
   --radius-card: .5rem;
+
+  /*added semantic tokens */
+  --border-card: 1px solid #d0d0d0;
+  --padding-header: 2rem;
+  --bold-font: 700;
+  --color-background: #f1f1f1;
+  --space-actions: .75rem;
 }
-body { color: #404040; background: #f1f1f1; font-family: Arial, sans-serif; line-height: 1.5; }
-header { padding: 2rem; background: #8c1d40; color: #ffffff; }
-.eyebrow { color: #ffc627; font-weight: 700; }
-main { display: grid; gap: 1rem; max-width: 70rem; margin: 2rem auto; padding: 0 1rem; }
-.card { padding: 1rem; background: #ffffff; border: 1px solid #d0d0d0; border-radius: .5rem; }
+body { color: var(--color-text); background: var(--color-background); font-family: Arial, sans-serif; line-height: 1.5; }
+header { padding: var(--padding-header); background: var(--color-action); color: var(--color-surface); }
+.eyebrow { color: var(--color-accent); font-weight: var(--bold-font); }
+main { display: grid; gap: var(--space-card); max-width: 70rem; margin: 2rem auto; padding: 0 1rem; }
+.card { padding: var(--space-card); background: var(--color-surface); border: var(--border-card); border-radius: var(--radius-card); }
 img { display: block; max-width: 100%; height: auto; }
-a { color: #8c1d40; }
-button, .button { display: inline-block; padding: .75rem 1rem; background: #8c1d40; color: #ffffff; border-radius: .25rem; font-weight: 700; }
-form { display: grid; gap: .75rem; max-width: 28rem; }
-input { padding: .75rem; border: 1px solid #747474; }
-.theme-alt { /* TODO: redefine semantic tokens here, then consume them above. */ }
+a { color: var(--color-action); }
+button, .button { display: inline-block; padding: .75rem 1rem; background: var(--color-action); color: var(--color-surface); border-radius: .25rem; font-weight: var(--bold-font); }
+form { display: grid; gap: var(--space-actions); max-width: 28rem; }
+input { padding: var(--space-actions); border: 1px solid #747474; }
+
+.theme-alt { 
+  /* TODO: redefine semantic tokens here, then consume them above. */ 
+  }
