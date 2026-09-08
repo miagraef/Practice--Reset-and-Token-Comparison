@@ -1,2 +1,34 @@
 /* TODO: Build a short, justified reset. Preserve useful semantics and visible focus. */
 *, *::before, *::after { box-sizing: border-box; }
+
+
+li {
+    list-style: inside;
+    font-style: italic;
+}
+/* align list items with a greater margin to improve readability and separation between content. makes it visually different than other text*/
+
+.card {
+    line-height: 1.5rem;
+}
+/* card content becomes more readable with larger line-height, especially with card 2 that has more content */
+
+h2 {
+    font-size: 2rem;
+}
+/* separates the size of the card heading and the paragraph for hierarchy */
+
+p {
+    font-size: 1.2rem;
+}
+/* separates the size of the paragraph between card content for hierarchy */
+
+p, a, label, button, form, input { 
+    margin: 0.25rem;
+}
+/* adds a small margin to separate content and improve readability */
+
+form {
+    margin-top: 1rem;
+}
+/* separate form of the card content from the text link and button */
