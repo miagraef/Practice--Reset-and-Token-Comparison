@@ -2,5 +2,8 @@
 * { margin: 0; padding: 0; border: 0; font: inherit; }
 
 /*
-Removes default margins, paddings, and borders - now require rebuilding. 
+- Removes default margins, paddings, font styles, and borders - now require rebuilding:  
+NO HIERARCHY
+- Removes the hierarchy within text: all text no matter the importance is the same size and style.
+- Line spacing is crowded: no margins between sections of text or borders around text.
 */
