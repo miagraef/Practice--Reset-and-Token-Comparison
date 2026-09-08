@@ -27,4 +27,9 @@ input { padding: var(--space-actions); border: 1px solid #747474; }
 
 .theme-alt { 
   /* TODO: redefine semantic tokens here, then consume them above. */ 
+  --color-accent: #8c1d40;
+  --color-action: #ffc627;
+  --border-card: 3px solid #404040;
+  --bold-font: 800;
+  --space-card: var(--padding-header);
   }
